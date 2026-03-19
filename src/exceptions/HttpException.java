@@ -1,10 +1,10 @@
 package exceptions;
 
-public abstract class HTTPException extends RuntimeException {
+public abstract class HttpException extends RuntimeException {
     protected int statusCode;
     protected String detail;
 
-    public HTTPException(int statusCode, String detail) {
+    public HttpException(int statusCode, String detail) {
         super(detail);
         this.statusCode = statusCode;
         this.detail = detail;
