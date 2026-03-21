@@ -1,0 +1,20 @@
+=== ERROR [400] ===
+Fecha y Hora : 2026-03-20 21:27:37
+Detalle      : El nombre del usuario no puede estar vacío.
+Objeto DTO   : UserDTO{id='sofia', nombre='', email='', rol='', activo=true}
+--------------------------------------------------
+=== ERROR [400] ===
+Fecha y Hora : 2026-03-20 21:27:44
+Detalle      : El nombre del usuario no puede estar vacío.
+Objeto DTO   : UserDTO{id='2345', nombre='', email='', rol='', activo=true}
+--------------------------------------------------
+=== ERROR [400] ===
+Fecha y Hora : 2026-03-20 21:28:49
+Detalle      : El nombre del usuario no puede estar vacío.
+Objeto DTO   : UserDTO{id='2345', nombre='', email='', rol='', activo=true}
+--------------------------------------------------
+=== ERROR [409] ===
+Fecha y Hora : 2026-03-20 21:30:24
+Detalle      : Límite alcanzado: Este usuario ya ha sido actualizado 2 veces en esta sesión.
+Objeto DTO   : UserDTO{id='1234', nombre='fabian', email='ds@gmail.com', rol='admin', activo=false}
+--------------------------------------------------
